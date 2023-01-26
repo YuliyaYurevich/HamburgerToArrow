@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  cursor: pointer;
+  transition: all 0.5s ease-out;
+}
+
+.hamburger .btn-line {
+  width: 50px;
+  height: 5px;
+  margin: 0 0 10px 0;
+  transition: all 0.5s ease-out;
+}
+
+.btn-line {
+  background-color: #fff;
+}
+
+.arrowOne {
+  transform: rotate(-45deg) translate(-30px, 5px) scaleX(0.5);
+}
+
+.arrowThree {
+  transform: rotate(-135deg) translate(30px, 5px) scaleX(0.5);
+}
+
+.changeColor {
+  background-color: #ffd200;
+}
+
+.colorToPink {
+  background-color: #f40082;
+}
